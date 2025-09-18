@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="PlayerCharacter" load_steps=10 format=3 uid="uid://yu3nllblodbx"]
+
+[ext_resource type="Script" uid="uid://ts8xpgftpmty" path="res://objects/player/character.gd" id="1_iic6u"]
+[ext_resource type="Resource" uid="uid://b7i8ll3jt5jja" path="res://objects/toon/clothing/skirts/basic_skirt.tres" id="1_pxydo"]
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="2_4t3fr"]
+[ext_resource type="Script" uid="uid://yg7gxug4rab" path="res://objects/toon/toon_dna.gd" id="2_qtet3"]
+[ext_resource type="Resource" uid="uid://dbm2d2y112qxb" path="res://objects/toon/clothing/shirts/basic_shirt.tres" id="3_a3wq6"]
+[ext_resource type="Resource" uid="uid://tyi7ukxtvcgc" path="res://objects/battle/battle_resources/gag_loadouts/loadouts/standard_loadout.tres" id="4_84pul"]
+[ext_resource type="Resource" uid="uid://08861uv78r5r" path="res://objects/items/resources/active/goon_foot.tres" id="7_jn2ps"]
+[ext_resource type="Resource" uid="uid://dcrx4av7o6ivk" path="res://objects/items/resources/accessories/glasses/aviator_glasses.tres" id="8_j2mi0"]
+
+[sub_resource type="Resource" id="Resource_ey8nb"]
+script = ExtResource("2_qtet3")
+body_type = 1
+species = 4
+head_index = 1
+eyelashes = true
+skirt = true
+head_color = Color(0.402754, 1, 0.999636, 1)
+torso_color = Color(0.402754, 1, 0.999636, 1)
+leg_color = Color(0.402754, 1, 0.999636, 1)
+shirt = ExtResource("3_a3wq6")
+bottoms = ExtResource("1_pxydo")
+metadata/_custom_type_script = "uid://yg7gxug4rab"
+
+[resource]
+script = ExtResource("1_iic6u")
+character_name = "Cloudbow"
+character_summary = "- 25 Starting Laff
++ Start with Squirt and Drop.
++ Starts with Goon Leg and Aviators!
+- ! Curse of the Speedster: High attack, speed, and evade; crippled defense."
+dna = SubResource("Resource_ey8nb")
+gag_loadout = ExtResource("4_84pul")
+starting_laff = 25
+starting_items = Array[ExtResource("2_4t3fr")]([ExtResource("7_jn2ps"), ExtResource("8_j2mi0"), null])
+override_index = -1
+achievement_qualities = Dictionary[int, String]({})
+random_character_stored_name = ""
+achievement_index = 0
+metadata/_custom_type_script = "uid://ts8xpgftpmty"
