@@ -1,0 +1,19 @@
+{
+	"name": "eleenEC",
+	"namespace": "eleentyasi",
+	"version_number": "1.0.1",
+	"description": "Adds 3 extra critters to the toon roster.",
+	"website_url": "https://github.com/exampleauthor/examplemod",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"authors": ["eleentyasi"],
+			"optional_dependencies": [],
+			"load_before": [],
+			"incompatibilities": [],
+			"compatible_mod_loader_version": ["6.2.0"],
+			"compatible_game_version": ["v1.1.3"],
+			"config_schema": {}
+		}
+	}
+}

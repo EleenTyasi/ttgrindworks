@@ -1,0 +1,70 @@
+[gd_resource type="Resource" script_class="PlayerCharacter" load_steps=20 format=3 uid="uid://dp3mgoxlv5myk"]
+
+[ext_resource type="Script" uid="uid://o2fe7ud1faj6" path="res://objects/battle/battle_resources/stats.gd" id="1_lpgry"]
+[ext_resource type="Script" uid="uid://ts8xpgftpmty" path="res://objects/player/character.gd" id="1_mo1qu"]
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="2_11pj8"]
+[ext_resource type="Resource" uid="uid://b7i8ll3jt5jja" path="res://objects/toon/clothing/skirts/basic_skirt.tres" id="2_n1ca0"]
+[ext_resource type="Script" uid="uid://yg7gxug4rab" path="res://objects/toon/toon_dna.gd" id="3_jbc27"]
+[ext_resource type="Resource" uid="uid://davslqqkgk2ff" path="res://mods-unpacked/eleentyasi-eleenEC/purrfectplushie-shirt.tres" id="4_uoh0d"]
+[ext_resource type="Script" uid="uid://b6b6pfoqyolr" path="res://objects/battle/battle_resources/gag_loadouts/track.gd" id="5_mbsjv"]
+[ext_resource type="Resource" uid="uid://dvxiqtapdvmj4" path="res://objects/battle/battle_resources/gag_loadouts/gag_tracks/squirt.tres" id="6_5p7vd"]
+[ext_resource type="Resource" uid="uid://lf7h5xkbt2op" path="res://objects/battle/battle_resources/gag_loadouts/gag_tracks/drop.tres" id="7_ocitf"]
+[ext_resource type="Resource" uid="uid://dqldfsmn7g606" path="res://objects/battle/battle_resources/gag_loadouts/gag_tracks/lure.tres" id="8_bpyeq"]
+[ext_resource type="Resource" uid="uid://cvaos6ucteefy" path="res://objects/battle/battle_resources/gag_loadouts/gag_tracks/sound.tres" id="9_4njor"]
+[ext_resource type="Resource" uid="uid://0528viy6hdsv" path="res://objects/battle/battle_resources/gag_loadouts/gag_tracks/throw.tres" id="10_etg46"]
+[ext_resource type="Script" uid="uid://ckypnf7t805p3" path="res://objects/battle/battle_resources/gag_loadouts/gag_loadout.gd" id="11_87ju3"]
+[ext_resource type="Resource" uid="uid://thgjta7yh73q" path="res://objects/items/resources/accessories/hats/witch_hat.tres" id="14_oh0ix"]
+[ext_resource type="Resource" uid="uid://bpctsghink3ao" path="res://objects/items/resources/active/gumball_machine.tres" id="15_nfigy"]
+[ext_resource type="Resource" uid="uid://ekb0y3prugw1" path="res://mods-unpacked/eleentyasi-eleenEC/extensions/objects/items/resources/passive/purrfect_setup.tres" id="16_n1ca0"]
+
+[sub_resource type="Resource" id="Resource_xnbj0"]
+script = ExtResource("1_lpgry")
+damage = 1.0
+defense = 1.0
+evasiveness = 1.0
+accuracy = 1.0
+speed = 1.0
+max_turns = 3
+max_hp = 25
+hp = 25
+turns = 1
+metadata/_custom_type_script = "uid://o2fe7ud1faj6"
+
+[sub_resource type="Resource" id="Resource_lbe07"]
+script = ExtResource("3_jbc27")
+body_type = 1
+species = 1
+head_index = 1
+eyelashes = true
+skirt = true
+head_color = Color(1, 0.290196, 1, 1)
+torso_color = Color(1, 0.290196, 1, 1)
+leg_color = Color(1, 0.290196, 1, 1)
+shirt = ExtResource("4_uoh0d")
+bottoms = ExtResource("2_n1ca0")
+metadata/_custom_type_script = "uid://yg7gxug4rab"
+
+[sub_resource type="Resource" id="Resource_qfu5n"]
+script = ExtResource("11_87ju3")
+loadout = Array[ExtResource("5_mbsjv")]([ExtResource("6_5p7vd"), ExtResource("7_ocitf"), ExtResource("8_bpyeq"), ExtResource("9_4njor"), ExtResource("10_etg46")])
+metadata/_custom_type_script = "uid://ckypnf7t805p3"
+
+[resource]
+script = ExtResource("1_mo1qu")
+character_name = "Purrfect Plushie"
+character_summary = "- Trapless.
+- Start with Squirt and Drop.
+- Begin the run with the Witch Hat and Gumball Machine.
+- Poor Starting stats. 
+- Start with one of each treasure. (excluding Sleepy!)
+- No Gag Vouchers at the start. "
+dna = SubResource("Resource_lbe07")
+gag_loadout = SubResource("Resource_qfu5n")
+starting_laff = 30
+starting_items = Array[ExtResource("2_11pj8")]([ExtResource("14_oh0ix"), ExtResource("15_nfigy"), ExtResource("16_n1ca0")])
+base_stats = SubResource("Resource_xnbj0")
+override_index = -1
+achievement_qualities = Dictionary[int, String]({})
+random_character_stored_name = ""
+achievement_index = 0
+metadata/_custom_type_script = "uid://ts8xpgftpmty"
