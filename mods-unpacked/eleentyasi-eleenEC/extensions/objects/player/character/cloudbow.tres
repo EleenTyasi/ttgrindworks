@@ -1,5 +1,6 @@
-[gd_resource type="Resource" script_class="PlayerCharacter" load_steps=10 format=3 uid="uid://yu3nllblodbx"]
+[gd_resource type="Resource" script_class="PlayerCharacter" load_steps=13 format=3 uid="uid://yu3nllblodbx"]
 
+[ext_resource type="Script" uid="uid://o2fe7ud1faj6" path="res://objects/battle/battle_resources/stats.gd" id="1_a3wq6"]
 [ext_resource type="Script" uid="uid://ts8xpgftpmty" path="res://objects/player/character.gd" id="1_iic6u"]
 [ext_resource type="Resource" uid="uid://b7i8ll3jt5jja" path="res://objects/toon/clothing/skirts/basic_skirt.tres" id="1_pxydo"]
 [ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="2_4t3fr"]
@@ -8,6 +9,20 @@
 [ext_resource type="Resource" uid="uid://tyi7ukxtvcgc" path="res://objects/battle/battle_resources/gag_loadouts/loadouts/standard_loadout.tres" id="4_84pul"]
 [ext_resource type="Resource" uid="uid://08861uv78r5r" path="res://objects/items/resources/active/goon_foot.tres" id="7_jn2ps"]
 [ext_resource type="Resource" uid="uid://dcrx4av7o6ivk" path="res://objects/items/resources/accessories/glasses/aviator_glasses.tres" id="8_j2mi0"]
+[ext_resource type="Resource" uid="uid://bi112abbi83tx" path="res://mods-unpacked/eleentyasi-eleenEC/extensions/objects/items/resources/passive/cloudbow_setup.tres" id="10_84pul"]
+
+[sub_resource type="Resource" id="Resource_jn2ps"]
+script = ExtResource("1_a3wq6")
+damage = 1.0
+defense = 1.0
+evasiveness = 1.0
+accuracy = 1.0
+speed = 1.0
+max_turns = 3
+max_hp = 25
+hp = 25
+turns = 1
+metadata/_custom_type_script = "uid://o2fe7ud1faj6"
 
 [sub_resource type="Resource" id="Resource_ey8nb"]
 script = ExtResource("2_qtet3")
@@ -33,7 +48,8 @@ character_summary = "- 25 Starting Laff
 dna = SubResource("Resource_ey8nb")
 gag_loadout = ExtResource("4_84pul")
 starting_laff = 25
-starting_items = Array[ExtResource("2_4t3fr")]([ExtResource("7_jn2ps"), ExtResource("8_j2mi0"), null])
+starting_items = Array[ExtResource("2_4t3fr")]([ExtResource("7_jn2ps"), ExtResource("8_j2mi0"), ExtResource("10_84pul")])
+base_stats = SubResource("Resource_jn2ps")
 override_index = -1
 achievement_qualities = Dictionary[int, String]({})
 random_character_stored_name = ""
