@@ -2,11 +2,11 @@
 
 [ext_resource type="Script" uid="uid://o2fe7ud1faj6" path="res://objects/battle/battle_resources/stats.gd" id="1_a3wq6"]
 [ext_resource type="Script" uid="uid://ts8xpgftpmty" path="res://objects/player/character.gd" id="1_iic6u"]
-[ext_resource type="Resource" uid="uid://b7i8ll3jt5jja" path="res://objects/toon/clothing/skirts/basic_skirt.tres" id="1_pxydo"]
 [ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="2_4t3fr"]
+[ext_resource type="Resource" uid="uid://bdnet72x8y114" path="res://mods-unpacked/eleentyasi-eleenEC/cloudbow-skirt.tres" id="2_a3wq6"]
 [ext_resource type="Script" uid="uid://yg7gxug4rab" path="res://objects/toon/toon_dna.gd" id="2_qtet3"]
-[ext_resource type="Resource" uid="uid://dbm2d2y112qxb" path="res://objects/toon/clothing/shirts/basic_shirt.tres" id="3_a3wq6"]
 [ext_resource type="Resource" uid="uid://tyi7ukxtvcgc" path="res://objects/battle/battle_resources/gag_loadouts/loadouts/standard_loadout.tres" id="4_84pul"]
+[ext_resource type="Resource" uid="uid://cy03f1tnmx52x" path="res://mods-unpacked/eleentyasi-eleenEC/cloudbow-shirt.tres" id="4_jn2ps"]
 [ext_resource type="Resource" uid="uid://08861uv78r5r" path="res://objects/items/resources/active/goon_foot.tres" id="7_jn2ps"]
 [ext_resource type="Resource" uid="uid://dcrx4av7o6ivk" path="res://objects/items/resources/accessories/glasses/aviator_glasses.tres" id="8_j2mi0"]
 [ext_resource type="Resource" uid="uid://bi112abbi83tx" path="res://mods-unpacked/eleentyasi-eleenEC/extensions/objects/items/resources/passive/cloudbow_setup.tres" id="10_84pul"]
@@ -34,8 +34,8 @@ skirt = true
 head_color = Color(0.402754, 1, 0.999636, 1)
 torso_color = Color(0.402754, 1, 0.999636, 1)
 leg_color = Color(0.402754, 1, 0.999636, 1)
-shirt = ExtResource("3_a3wq6")
-bottoms = ExtResource("1_pxydo")
+shirt = ExtResource("4_jn2ps")
+bottoms = ExtResource("2_a3wq6")
 metadata/_custom_type_script = "uid://yg7gxug4rab"
 
 [resource]

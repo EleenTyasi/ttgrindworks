@@ -38,7 +38,7 @@ func install_script_extensions() -> void:
 
 func install_script_hook_files() -> void:
 	extensions_dir_path = mod_dir_path.path_join("extensions")
-	print("beating the shit out of godot...")
+	print("EleenEC: Skipping extensions...")
 	#ModLoaderMod.install_script_hooks("res://objects/player.gd", extensions_dir_path.path_join("objects/player/player.hooks.gd"))
 
 
@@ -46,7 +46,7 @@ func add_translations() -> void:
 	# ! Place all of your translation files into this directory
 	translations_dir_path = mod_dir_path.path_join("translations")
 	# lmao get fucked translations
-	print("Translate deez nuts, godot.")
+	print("EleenEC: Skipping translations...")
 
 func _ready() -> void:
 	Globals.ADDITIONAL_TOON_PATHS.append("res://mods-unpacked/eleentyasi-eleenEC/extensions/objects/player/character/purrfectplushie.tres")

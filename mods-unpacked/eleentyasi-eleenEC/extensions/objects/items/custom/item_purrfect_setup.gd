@@ -16,5 +16,6 @@ func first_time_setup(player : Player) -> void:
 	player.stats.gag_vouchers.set('Lure', 0)
 	player.stats.gag_vouchers.set('Drop', 0)
 	# You're determined.
+	# TODO: Replace this with Extra Toonup items; maybe?
 	player.stats.healing_effectiveness = 1.35
 	player.stats.laff_boost_boost = +2

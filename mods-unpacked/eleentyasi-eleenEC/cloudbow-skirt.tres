@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ToonBottoms" load_steps=3 format=3 uid="uid://bdnet72x8y114"]
+
+[ext_resource type="Script" uid="uid://c8kas2j4io1jh" path="res://objects/toon/clothing/toon_bottoms.gd" id="1_2fkwr"]
+[ext_resource type="Texture2D" uid="uid://bwbe11pfn3to0" path="res://models/toon/textures/clothes/skirts/desat_skirt_1_4.png" id="2_i1nxb"]
+
+[resource]
+script = ExtResource("1_2fkwr")
+texture = ExtResource("2_i1nxb")
+base_color = Color(0.24531, 0.743566, 0.643263, 1)
+color_type = 0
