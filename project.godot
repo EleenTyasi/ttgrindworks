@@ -65,6 +65,7 @@ folder_colors={
 "res://fonts/": "gray",
 "res://general_resources/": "yellow",
 "res://models/": "orange",
+"res://mods-unpacked/eleentyasi-eleenEC/": "pink",
 "res://objects/": "blue",
 "res://scenes/": "red",
 "res://ui_assets/": "teal"
