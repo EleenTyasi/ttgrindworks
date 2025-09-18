@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="PlayerCharacter" load_steps=13 format=3 uid="uid://yu3nllblodbx"]
+[gd_resource type="Resource" script_class="PlayerCharacter" load_steps=13 format=3 uid="uid://cwru8hltn1287"]
 
 [ext_resource type="Script" uid="uid://o2fe7ud1faj6" path="res://objects/battle/battle_resources/stats.gd" id="1_a3wq6"]
 [ext_resource type="Script" uid="uid://ts8xpgftpmty" path="res://objects/player/character.gd" id="1_iic6u"]
@@ -9,9 +9,9 @@
 [ext_resource type="Resource" uid="uid://cy03f1tnmx52x" path="res://mods-unpacked/eleentyasi-eleenEC/cloudbow-shirt.tres" id="4_jn2ps"]
 [ext_resource type="Resource" uid="uid://08861uv78r5r" path="res://objects/items/resources/active/goon_foot.tres" id="7_jn2ps"]
 [ext_resource type="Resource" uid="uid://dcrx4av7o6ivk" path="res://objects/items/resources/accessories/glasses/aviator_glasses.tres" id="8_j2mi0"]
-[ext_resource type="Resource" uid="uid://bi112abbi83tx" path="res://mods-unpacked/eleentyasi-eleenEC/extensions/objects/items/resources/passive/cloudbow_setup.tres" id="10_84pul"]
+[ext_resource type="Resource" uid="uid://duemahybl4hum" path="res://mods-unpacked/eleentyasi-eleenEC/extensions/objects/items/resources/passive/cloudbow_setup.tres" id="10_84pul"]
 
-[sub_resource type="Resource" id="Resource_jn2ps"]
+[sub_resource type="Resource" id="Resource_a3wq6"]
 script = ExtResource("1_a3wq6")
 damage = 1.0
 defense = 1.0
@@ -24,16 +24,16 @@ hp = 25
 turns = 1
 metadata/_custom_type_script = "uid://o2fe7ud1faj6"
 
-[sub_resource type="Resource" id="Resource_ey8nb"]
+[sub_resource type="Resource" id="Resource_4t3fr"]
 script = ExtResource("2_qtet3")
 body_type = 1
 species = 4
 head_index = 1
 eyelashes = true
 skirt = true
-head_color = Color(0.402754, 1, 0.999636, 1)
-torso_color = Color(0.402754, 1, 0.999636, 1)
-leg_color = Color(0.402754, 1, 0.999636, 1)
+head_color = Color(0.215686, 1, 1, 1)
+torso_color = Color(0.215686, 1, 1, 1)
+leg_color = Color(0.215686, 1, 1, 1)
 shirt = ExtResource("4_jn2ps")
 bottoms = ExtResource("2_a3wq6")
 metadata/_custom_type_script = "uid://yg7gxug4rab"
@@ -41,15 +41,15 @@ metadata/_custom_type_script = "uid://yg7gxug4rab"
 [resource]
 script = ExtResource("1_iic6u")
 character_name = "Cloudbow"
-character_summary = "- 25 Starting Laff
-+ Start with Squirt and Drop.
-+ Starts with Goon Leg and Aviators!
-- ! Curse of the Speedster: High attack, speed, and evade; crippled defense."
-dna = SubResource("Resource_ey8nb")
+character_summary = "= Start with 25 Laff.
+= Start with Drop and Squirt.
++ Start with Aviators and Goon Leg. 
+- Curse of the Speedster: Low defense; high other stats."
+dna = SubResource("Resource_4t3fr")
 gag_loadout = ExtResource("4_84pul")
 starting_laff = 25
 starting_items = Array[ExtResource("2_4t3fr")]([ExtResource("7_jn2ps"), ExtResource("8_j2mi0"), ExtResource("10_84pul")])
-base_stats = SubResource("Resource_jn2ps")
+base_stats = SubResource("Resource_a3wq6")
 override_index = -1
 achievement_qualities = Dictionary[int, String]({})
 random_character_stored_name = ""

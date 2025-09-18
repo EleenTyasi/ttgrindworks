@@ -16,6 +16,12 @@ func first_time_setup(player : Player) -> void:
 	player.stats.gag_vouchers.set('Lure', 0)
 	player.stats.gag_vouchers.set('Drop', 0)
 	# You're determined.
-	# TODO: Replace this with Extra Toonup items; maybe?
-	player.stats.healing_effectiveness = 1.35
-	player.stats.laff_boost_boost = +2
+	# FIX: Both. Do both.
+	player.stats.treasures.set(0, 1) # Icecream. You're not a fan of vanilla...
+	player.stats.treasures.set(1, 1) # Starfish? Are you sure this is edible...?
+	player.stats.treasures.set(2, 1) # Daisy. Eh, passable for a snack, you guess.
+	player.stats.treasures.set(3, 1) # Musical Note. Good tunes soothe all aches.
+	player.stats.treasures.set(4, 1) # Snowflake. Love the snow.
+	player.stats.healing_effectiveness = +0.35
+	player.stats.throw_heal_boost = +0.10
+	player.stats.laff_boost_boost = +3

@@ -52,11 +52,13 @@ metadata/_custom_type_script = "uid://ckypnf7t805p3"
 [resource]
 script = ExtResource("12_7j204")
 character_name = "Purrfect Plushie"
-character_summary = "- Trapless, Start with Sound and Drop; Esoteric.
-- Begin the run with the Witch Hat and Gumball Machine.
-- Poor Starting stats. 
-- No Gag Vouchers at the start. 
-- Healing and Laff boosts are more effective."
+character_summary = "= Trapless. Gag Order is different!
+= Start with Squirt and Drop.
+- ! Low starting stats!
+- No starting gag vouchers.
++  Starts with a Witch Hat, and a gumball machine.
++ ! Boosted healing from all sources; start with 1 treasure per treasure; excluding sleepy.
+"
 dna = SubResource("Resource_lbe07")
 gag_loadout = SubResource("Resource_qfu5n")
 starting_laff = 30
