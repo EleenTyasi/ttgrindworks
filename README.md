@@ -19,6 +19,15 @@ This is a single-player game based on Disney's Toontown Online developed with th
 
 Enjoy!
 
+## This is a mod for this game, and as this is modded content...
+- All future updates to this fork are done by EleenTyasi.
+  - This is here in case you want to check out the progress; It's slow, but it's there.
+  - Shoutouts to AdlerKit; and to the fine work by the Grindworks Team.
+- Future updates will be slow, so please be patient.
+- Have fun. <3
+
+
+
 ## Credits
 - Evan
   - Project Lead, Programmer & Designer
@@ -80,4 +89,6 @@ Enjoy!
 - Just a BLU Toon
 - Niji
 - Princess Sandy
+- AdlerKit
+- Dreayth
 - You! Yes, really.
