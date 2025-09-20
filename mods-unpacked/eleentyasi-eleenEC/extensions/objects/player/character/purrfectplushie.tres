@@ -57,8 +57,7 @@ character_summary = "= Trapless. Gag Order is different!
 - ! Low starting stats!
 - No starting gag vouchers.
 +  Starts with a Witch Hat, and a gumball machine.
-+ ! Boosted healing from all sources; start with 1 treasure per treasure; excluding sleepy.
-"
++ ! Boosted healing from all sources; start with 1 treasure per treasure; excluding sleepy."
 dna = SubResource("Resource_lbe07")
 gag_loadout = SubResource("Resource_qfu5n")
 starting_laff = 30

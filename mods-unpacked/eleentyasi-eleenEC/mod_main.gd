@@ -51,5 +51,6 @@ func add_translations() -> void:
 func _ready() -> void:
 	Globals.ADDITIONAL_TOON_PATHS.append("res://mods-unpacked/eleentyasi-eleenEC/extensions/objects/player/character/purrfectplushie.tres")
 	Globals.ADDITIONAL_TOON_PATHS.append("res://mods-unpacked/eleentyasi-eleenEC/extensions/objects/player/character/cloudbow.tres")
+	Globals.ADDITIONAL_TOON_PATHS.append("res://mods-unpacked/eleentyasi-eleenEC/extensions/objects/player/character/foomy.tres")
 	print("Thank you to Alderkit for having the Green Folio mod be easily readable!")
 	print("Eleen's Extra Characters is ready to be played. Have fun, and report bugs to me!")
